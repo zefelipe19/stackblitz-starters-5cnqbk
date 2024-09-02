@@ -5,7 +5,12 @@
 
 body {
   height: 100%;
+  width: 100%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  position: relative;
 }
 
 .nav-bar {
@@ -15,9 +20,8 @@ body {
   justify-content: center;
   align-items: center;
   padding: 1rem;
-  margin-top: 150px;
-
-  z-index: 1000;
+  background-color: blue;
+  color: #fff;
   position: sticky;
   top: 0;
 }
@@ -34,4 +38,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: #fff;
+  background-color: blue;
 }
